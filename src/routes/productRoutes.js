@@ -7,7 +7,6 @@ import {
   deleteProduct  
 } from '../controllers/productController.js'; 
 import { protect } from '../middleware/authMiddleware.js'; 
- 
 const router = express.Router(); 
  
 // ดึงข้อมูลสินค้า (สาธารณะ: ไม่ต้องเข้าสู่ระบบก็ดูได้) 

@@ -6,8 +6,7 @@ import authRouter from './routes/authRoutes.js';
 import productRouter from './routes/productRoutes.js'; 
 import globalErrorHandler from './middleware/errorMiddleware.js'; 
 import AppError from './utils/appError.js'; 
- 
-// โหลดตั้งค่าสภาพแวดล้อม 
+// โหลดตั้งค่าสภาพแวดล้อม -
 dotenv.config(); 
  
 // เชื่อมต่อฐานข้อมูล 

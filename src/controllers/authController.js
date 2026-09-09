@@ -2,7 +2,6 @@ import jwt from 'jsonwebtoken';
 import User from '../models/userModel.js'; 
 import AppError from '../utils/appError.js'; 
 import asyncHandler from '../utils/asyncHandler.js'; 
- 
 // ฟังก์ชันสร้างเหรียญ JWT 
 const signAccessToken = (id) => { 
   return jwt.sign({ id }, process.env.JWT_ACCESS_SECRET, { 

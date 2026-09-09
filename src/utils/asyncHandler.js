@@ -3,5 +3,4 @@ const asyncHandler = (fn) => {
     fn(req, res, next).catch(next); // หากเกิด Rejected Promise จะถูกโยนไปที่ Global Error Middleware ทันทีผ่าน next() 
   }; 
 }; 
- 
 export default asyncHandler; 
